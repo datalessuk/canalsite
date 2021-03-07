@@ -46,7 +46,7 @@ main{
     
     /*background-image: url("/img/mainbg-min.jpg");*/
     
-    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url("/img/mainbg-min.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("/img/mainbg-min.jpg");
     
     background-size: cover;
     background-position: center;
@@ -56,7 +56,25 @@ main {
     flex: 1 0 auto;
   }
 
+ .container h4{
+     margin-top: 150px;
+     
+ }
+.container span{
+    margin-left: 20px;
+    font-size: 1.7rem;
+}
+.container h1{
+    letter-spacing: 5px;
+    font-weight:bold;
+}
+.container .btn-large{
+    background-color: black;
+    border: solid white 1px;
+    width: 150px;
+}
 
+ 
 
 
 /* Footer !!!! */
