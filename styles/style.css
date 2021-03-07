@@ -1,5 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+    
+}
+ .brand-logo img{
+    height: 25px;
+    width: 25px;
+    margin-left: 15px;
+  
+
+}
+
+.brand-logo {
+    font-size: 20px;
+}
+
+nav{
+    background-color: rgb(19,19,19) !important;
+    height: 55px;
+}
+nav a{
+    text-transform: uppercase;
+}
+#nav-mobile{
+    margin-right: 40px;
+}
+main{
+    background-image: url("/img/mainbg-min.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}   
+main {
+    flex: 1 0 auto;
+  }
+
+
+
+
+/* Footer !!!! */
+.page-footer{
+    background-color: rgb(19,19,19) !important;
+}
+.page-footer img {
+    height: 20px;
+    width: 20px;
+   
 }
