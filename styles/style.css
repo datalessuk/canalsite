@@ -38,7 +38,13 @@ nav{
 nav a{
     text-transform: uppercase;
     
+    
 }
+.nav-wrapper ul {
+    opacity: 0.6;
+}
+
+
 #nav-mobile{
     margin-right: 40px;
 }
@@ -58,7 +64,7 @@ main {
 
  .container h4{
      margin-top: 150px;
-     text-shadow: white 0px 0px 1px;
+     text-shadow: white 0px 0px 2px;
      
  }
 .container span{
@@ -96,3 +102,13 @@ main {
     width: 20px;
    
 }
+.page-footer a{
+    color: inherit;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {
+    .image-location h6{
+        margin-top: 50px;
+    }
+}
+
