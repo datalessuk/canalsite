@@ -48,6 +48,18 @@ nav a{
 #nav-mobile{
     margin-right: 40px;
 }
+
+/*drop down */
+.btn{
+    background-color: black;
+    border: solid white 2px;
+}
+.btn:hover{
+    background-color: black;
+}
+
+
+
 main{
     
     background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("/img/mainbg-min.jpg");
