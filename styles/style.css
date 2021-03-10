@@ -59,6 +59,15 @@ main{
 main {
     flex: 1 0 auto;
 }
+.image-location h6{
+color: white;
+margin-top: 200px;
+opacity: 0.6;
+}
+.image-location a img{
+    width: 20px;
+    height: 20px;
+}
 .card{
     width: 400px;
     height: 220px;
@@ -76,6 +85,10 @@ main {
 }
 .container span{
     text-shadow: 1px 1px black;
+}
+.container h4 span{
+    font-size: 2rem;
+    margin-left: 30px;
 }
 .container h4{
     margin-top: 200px;
