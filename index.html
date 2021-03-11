@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
     
     <title>Canal Site</title>
@@ -14,16 +14,23 @@
     <nav>
         <div class="nav-wrapper">
             <a href="#" class="brand-logo"><img src="./img/icons/water-solid.svg"><span></span> UK Canals</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
+                
                 <li><a href="sass.html">Home</a></li>
                 <li><a href="sass.html">About</a></li>
                 <li><a href="sass.html">Explore</a></li>
                 </ul>
                 
+                
             </div>
         
     </nav>
-
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Explore</a></li>
+      </ul>
 
     <main>
         <div class="container">
@@ -62,38 +69,16 @@
                     </div>
                     
                 </div>
-                
-                <!--<div class="image-container">
-                    
-                    <img src="./img/main/main1.jpg">
-                </div>
-                <div class="image-container">
-                    <img src="./img/main/main2.jpg">
-                </div>
-                <div class="image-container">
-                    <img src="./img/main/main3.jpg">
-                </div> -->
-                
-                
+        
             </div>
               
         </div>
         
         </div>
-        
-        <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>English</a>
-        <!-- Dropdown Structure -->
-        <ul id='dropdown1' class='dropdown-content'>
-        <li><a href="#!">French</a></li>
-        <li><a href="#!">German</a></li>
-</ul>
-        
+             
     </main>
-    <!--<div class="image-location">
-                <h6><a href="https://www.google.com/maps?q=5+lock+rise&rlz=1C1CHBF_en-GBGB894GB894&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjRr4zYoqHvAhVLSxUIHXoJAXIQ_AUoAXoECBIQAw"><img src="./img/icons/map-marker.svg"></a> Bingley Five Rise Locks, Leeds and Liverpool Canal</h6>
-            </div>-->
-    
-   
+  
+ 
     <footer class="page-footer">
         <div class="container">
             <div class="row">
@@ -105,6 +90,16 @@
                     <h6 class="white-text">Made by Mark Harrison</h6>
                     <p class="white-text">For more information on UK Canals</p>
                     <p class="white-text">Please visit <a href="https://canalrivertrust.org.uk/"> Canal and river trust</a></p>
+                    
+                </div>
+                <div class="row">
+                    <div class="col l6 s12">
+                        <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>English</a>
+        
+                        <ul id='dropdown1' class='dropdown-content'>
+                        <li><a href="#!">French</a></li>
+                        <li><a href="#!">German</a></li>
+                    </div>
                 </div>
             </div>
         </div>

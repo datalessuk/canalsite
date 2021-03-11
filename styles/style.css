@@ -57,9 +57,6 @@ nav a{
 .btn:hover{
     background-color: black;
 }
-
-
-
 main{
     
     background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("/img/mainbg-min.jpg");
@@ -127,18 +124,26 @@ opacity: 0.6;
     color: inherit;
     text-decoration: underline;
 }
+
 @media only screen and (max-width: 600px) {
     .image-location h6{
         margin-top: 50px;
     }
     .card{
+    /* removing cards from mobile view not enough room plus main
+    picture looks to streched with them enabled */
     display: none;
     }
     .container h4{
         margin-top: 50px;
+ 
+    }
+    .btn{
+        margin-top: 10px;
     }
 }
 
+/*1080p support , i developer at 1440p ect */
 @media only screen and (max-width: 1920px) {
     .card{
         height: 150px;
