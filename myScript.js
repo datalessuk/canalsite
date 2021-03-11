@@ -1,37 +1,19 @@
 
   document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.dropdown-trigger');
-    
-    var instances = M.Dropdown.init(elems, {});
-    
-   
-    
-    
-  });
-  
-
-
-
-  document.addEventListener('DOMContentLoaded', function() {
     let elems = document.querySelectorAll('.sidenav');
     let instances = M.Sidenav.init(elems, {});
   });
 
 
-  let x = document.querySelector('#dropdown1');
+//Getting the language code off browser 
 
-  console.log(x.value);
-  
-  //function getLanguageCode(){
+function getLanguageCode(){
+  let language =  window.navigator.language
+  return language;
+  //return language code 
+}
 
-    //let x = document.getElementById('french');
-    //x.addEventListener('click',languagefr);
-  
-//  }
 
-  //let x = document.getElementById('french');
-  //x.addEventListener('click',languagefr);
-  
-//  function languagefr(){
-  //  window.alert('french');
-  //}
+
+//3 languages English / German / French
+
