@@ -13,13 +13,13 @@
 <body>
     <nav>
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo"><img src="./img/icons/water-solid.svg"><span></span> UK Canals</a>
+            <a id="nav_logo" href="#" class="brand-logo"><img src="./img/icons/water-solid.svg"><span></span> UK Canals</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Explore</a></li>
+                <li><a href="#" id="nav_home">Home</a></li>
+                <li><a href="#" id="nav_about">About</a></li>
+                <li><a href="#" id="nav_explore">Explore</a></li>
                 </ul>
                 
                 
@@ -27,9 +27,9 @@
         
     </nav>
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Explore</a></li>
+        <li><a href="#" id="nav_home">Home</a></li>
+        <li><a href="#" id="nav_about">About</a></li>
+        <li><a href="#" id="nav_explore">Explore</a></li>
       </ul>
 
     <main>
@@ -38,12 +38,12 @@
             <div class="row">
                 <div class="col l6 s12">
                     
-            <h4 class="white-text"><span>See the Canal Network</span></h4>
-            <h1 class="white-text">Explore the United Kingdoms Canal Network</h1>
+            <h4 class="white-text"><span id="small_heading">See the Canal Network</span></h4>
+            <h1 class="white-text" id="main_heading">Explore the United Kingdoms Canal Network</h1>
             <br />
-            <a class="waves-effect waves-light btn-large">Explore</a>   
+            <a class="waves-effect waves-light btn-large" id="main_button">Explore</a>   
             <div class="image-location">
-                <h6><a href="https://www.google.com/maps?q=5+lock+rise&rlz=1C1CHBF_en-GBGB894GB894&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjRr4zYoqHvAhVLSxUIHXoJAXIQ_AUoAXoECBIQAw"><img src="./img/icons/map-marker.svg"></a> Bingley Five Rise Locks, Leeds and Liverpool Canal</h6>
+                <h6 id="map_location"><a href="https://www.google.com/maps?q=5+lock+rise&rlz=1C1CHBF_en-GBGB894GB894&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjRr4zYoqHvAhVLSxUIHXoJAXIQ_AUoAXoECBIQAw"><img src="./img/icons/map-marker.svg"></a> Bingley Five Rise Locks, Leeds and Liverpool Canal</h6>
                 </div>    
         </div>
             
@@ -51,21 +51,21 @@
                 <div class="card">
                     <div class="card-image">
                         <img src="./img/main/main1.jpg">
-                        <span class="card-title">Chirk Aqueduct</span>
+                        <span class="card-title" id="card_1">Chirk Aqueduct</span>
                     </div>
                     
                 </div>
                 <div class="card">
                     <div class="card-image">
                         <img src="./img/main/main2.jpg">
-                        <span class="card-title highlight">Leeds & Liverpool Canal</span>
+                        <span class="card-title highlight" id="card_2">Leeds & Liverpool Canal</span>
                     </div>
                     
                 </div>
                 <div class="card">
                     <div class="card-image">
                         <img src="./img/main/main3.jpg">
-                        <span class="card-title">Worcester Canal</span>
+                        <span class="card-title" id="card_3">Worcester Canal</span>
                     </div>
                     
                 </div>
@@ -83,13 +83,13 @@
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h6 class="white-text"><img src="./img/icons/water-solid.svg"> UK Canals</h6>
-                    <p class="white-text">&#xa9 Copyright 2021</p>
+                    <h6 class="white-text" id="footer_logo"><img src="./img/icons/water-solid.svg"> UK Canals</h6>
+                    <p class="white-text" id="footer_copyright">&#xa9 Copyright 2021</p>
                 </div>
                 <div class="col l4 offset-l2 s12">
-                    <h6 class="white-text">Made by Mark Harrison</h6>
-                    <p class="white-text">For more information on UK Canals</p>
-                    <p class="white-text">Please visit <a href="https://canalrivertrust.org.uk/"> Canal and river trust</a></p>
+                    <h6 class="white-text" id="footerright_h1">Made by Mark Harrison</h6>
+                    <p class="white-text"id="footerright_p1">For more information on UK Canals</p>
+                    <p class="white-text"id="footerright_p2">Please visit <a href="https://canalrivertrust.org.uk/"> Canal and river trust</a></p>
                     
                 </div>
                 
