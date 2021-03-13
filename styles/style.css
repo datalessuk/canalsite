@@ -12,6 +12,9 @@ body{
    flex-direction:column;
     
 }
+.nav-wrapper a{
+    margin-left: 10px;
+}
  .brand-logo img{
     height: 17px;
     width: 17px;
@@ -68,14 +71,16 @@ main{
 main {
     flex: 1 0 auto;
 }
-.image-location h6{
+.image-location a{
 color: white;
-margin-top: 200px;
+padding-top: 200px;
 opacity: 0.6;
+font-size: 1.4rem;
 }
 .image-location a img{
     width: 20px;
     height: 20px;
+    margin-top: 200px;
 }
 .card{
     width: 400px;
@@ -106,7 +111,7 @@ opacity: 0.6;
 .container .btn-large{
     background-color: black;
     border: solid white 2px;
-    width: 150px;
+    width: 160px;
     border-radius: 0px;
 }
 

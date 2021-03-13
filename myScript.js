@@ -29,32 +29,40 @@ function swapLanguage(){
   const HTMLID = ['nav_logo','nav_home','nav_about','nav_explore','small_heading','main_heading','main_button'
   ,'map_location','card_1','card_2','card_3','footer_logo','footer_copyright','footerright_h1','footerright_p1','footerright_p2']
 
-  let currentLanguage =  getLanguageName();
+  let JOSNRESPONSE= {};
+  let index =[];
+
+  let currentLanguage =  getLanguageCode();
+  
+  
   let jsonLanguage = getLanguageName(currentLanguage);
   
   let url = `/languages/${jsonLanguage}.json`;
   console.log(url);
 
-  axios.get(url)
-  .then(function(response){
-    //code here
+  fetch(url).then(function(result){
+    return result.json();
 
-  })
-  .catch(function(error){
-    //error if any 
+  }).then(function(data){
+    JOSNRESPONSE = data;
+    for(let i in JOSNRESPONSE){
+      index.push(JOSNRESPONSE[i]);
+      
+    }
+    
+        for(let x=0; x<HTMLID.length;x++){
+        document.getElementById(HTMLID[x]).innerHTML = index[x];
+    }
   })
 
-  //for(let x=0;x<HTMLID.length;x++){
-    //console.log(HTMLID[x]);
-  //}
 
 }
 
 
 
-//3 languages English / German / French
 
 
 window.onload =() =>{
   swapLanguage();
+  
 }
