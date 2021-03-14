@@ -10,7 +10,7 @@
 function getLanguageCode(){
   let language =  window.navigator.language
   return language;
-  //return language code 
+  //return language code/
 }
 
 function getLanguageName(pInput){
