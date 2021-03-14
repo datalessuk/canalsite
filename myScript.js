@@ -53,6 +53,8 @@ function swapLanguage(){
         for(let x=0; x<HTMLID.length;x++){
         document.getElementById(HTMLID[x]).innerHTML = index[x];
     }
+  }).catch(function(error){
+    console.log(error);
   })
 
 
