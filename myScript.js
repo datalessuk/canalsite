@@ -1,4 +1,4 @@
-
+  //mobile nav bar 
   document.addEventListener('DOMContentLoaded', function() {
     let elems = document.querySelectorAll('.sidenav');
     let instances = M.Sidenav.init(elems, {});
@@ -23,7 +23,6 @@ function getLanguageName(pInput){
   return 'english';
     
 }
-
 
 function swapLanguage(){
   const HTMLID = ['nav_logo','nav_home','nav_about','nav_explore','small_heading','main_heading','main_button'
@@ -53,14 +52,12 @@ function swapLanguage(){
         for(let x=0; x<HTMLID.length;x++){
         document.getElementById(HTMLID[x]).innerHTML = index[x];
     }
+  }).catch(function(error){
+    console.log(error);
   })
 
 
 }
-
-
-
-
 
 window.onload =() =>{
   swapLanguage();
